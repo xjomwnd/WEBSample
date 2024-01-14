@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
-// Other routes may be defined here...
+// Other routes may be defined here..
 
 const PORT = 3000;
 app.listen(PORT, () => {
